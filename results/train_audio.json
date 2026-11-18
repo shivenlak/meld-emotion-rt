@@ -1,0 +1,336 @@
+{
+ "args": {
+  "modalities": [
+   "audio"
+  ],
+  "name": "audio",
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "epochs": 60,
+  "patience": 10,
+  "batch": 64,
+  "lr": 0.001,
+  "hidden": 256,
+  "dropout": 0.3,
+  "modality_dropout": 0.2,
+  "class_weight_power": 0.5
+ },
+ "runs": [
+  {
+   "seed": 0,
+   "dev_weighted_f1": 0.4875,
+   "best_epoch": 8,
+   "history": [
+    {
+     "epoch": 0,
+     "dev_weighted_f1": 0.4142,
+     "dev_macro_f1": 0.2406
+    },
+    {
+     "epoch": 1,
+     "dev_weighted_f1": 0.4456,
+     "dev_macro_f1": 0.2831
+    },
+    {
+     "epoch": 2,
+     "dev_weighted_f1": 0.4343,
+     "dev_macro_f1": 0.271
+    },
+    {
+     "epoch": 3,
+     "dev_weighted_f1": 0.4412,
+     "dev_macro_f1": 0.2877
+    },
+    {
+     "epoch": 4,
+     "dev_weighted_f1": 0.4719,
+     "dev_macro_f1": 0.3203
+    },
+    {
+     "epoch": 5,
+     "dev_weighted_f1": 0.4578,
+     "dev_macro_f1": 0.3298
+    },
+    {
+     "epoch": 6,
+     "dev_weighted_f1": 0.4755,
+     "dev_macro_f1": 0.3353
+    },
+    {
+     "epoch": 7,
+     "dev_weighted_f1": 0.4582,
+     "dev_macro_f1": 0.3421
+    },
+    {
+     "epoch": 8,
+     "dev_weighted_f1": 0.4875,
+     "dev_macro_f1": 0.357
+    },
+    {
+     "epoch": 9,
+     "dev_weighted_f1": 0.4596,
+     "dev_macro_f1": 0.32
+    },
+    {
+     "epoch": 10,
+     "dev_weighted_f1": 0.4615,
+     "dev_macro_f1": 0.3432
+    },
+    {
+     "epoch": 11,
+     "dev_weighted_f1": 0.4692,
+     "dev_macro_f1": 0.3491
+    },
+    {
+     "epoch": 12,
+     "dev_weighted_f1": 0.4812,
+     "dev_macro_f1": 0.3517
+    },
+    {
+     "epoch": 13,
+     "dev_weighted_f1": 0.4682,
+     "dev_macro_f1": 0.327
+    },
+    {
+     "epoch": 14,
+     "dev_weighted_f1": 0.4696,
+     "dev_macro_f1": 0.3355
+    },
+    {
+     "epoch": 15,
+     "dev_weighted_f1": 0.4666,
+     "dev_macro_f1": 0.3377
+    },
+    {
+     "epoch": 16,
+     "dev_weighted_f1": 0.4527,
+     "dev_macro_f1": 0.3209
+    },
+    {
+     "epoch": 17,
+     "dev_weighted_f1": 0.4693,
+     "dev_macro_f1": 0.3332
+    },
+    {
+     "epoch": 18,
+     "dev_weighted_f1": 0.4625,
+     "dev_macro_f1": 0.3322
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "dev_weighted_f1": 0.4809,
+   "best_epoch": 5,
+   "history": [
+    {
+     "epoch": 0,
+     "dev_weighted_f1": 0.435,
+     "dev_macro_f1": 0.2728
+    },
+    {
+     "epoch": 1,
+     "dev_weighted_f1": 0.4473,
+     "dev_macro_f1": 0.2802
+    },
+    {
+     "epoch": 2,
+     "dev_weighted_f1": 0.436,
+     "dev_macro_f1": 0.2709
+    },
+    {
+     "epoch": 3,
+     "dev_weighted_f1": 0.4426,
+     "dev_macro_f1": 0.2963
+    },
+    {
+     "epoch": 4,
+     "dev_weighted_f1": 0.4642,
+     "dev_macro_f1": 0.3226
+    },
+    {
+     "epoch": 5,
+     "dev_weighted_f1": 0.4809,
+     "dev_macro_f1": 0.3183
+    },
+    {
+     "epoch": 6,
+     "dev_weighted_f1": 0.4778,
+     "dev_macro_f1": 0.3542
+    },
+    {
+     "epoch": 7,
+     "dev_weighted_f1": 0.4801,
+     "dev_macro_f1": 0.3419
+    },
+    {
+     "epoch": 8,
+     "dev_weighted_f1": 0.4632,
+     "dev_macro_f1": 0.3023
+    },
+    {
+     "epoch": 9,
+     "dev_weighted_f1": 0.4603,
+     "dev_macro_f1": 0.331
+    },
+    {
+     "epoch": 10,
+     "dev_weighted_f1": 0.4717,
+     "dev_macro_f1": 0.333
+    },
+    {
+     "epoch": 11,
+     "dev_weighted_f1": 0.4691,
+     "dev_macro_f1": 0.3242
+    },
+    {
+     "epoch": 12,
+     "dev_weighted_f1": 0.4685,
+     "dev_macro_f1": 0.3321
+    },
+    {
+     "epoch": 13,
+     "dev_weighted_f1": 0.4671,
+     "dev_macro_f1": 0.3389
+    },
+    {
+     "epoch": 14,
+     "dev_weighted_f1": 0.4656,
+     "dev_macro_f1": 0.3283
+    },
+    {
+     "epoch": 15,
+     "dev_weighted_f1": 0.4654,
+     "dev_macro_f1": 0.3284
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "dev_weighted_f1": 0.4716,
+   "best_epoch": 12,
+   "history": [
+    {
+     "epoch": 0,
+     "dev_weighted_f1": 0.3986,
+     "dev_macro_f1": 0.2308
+    },
+    {
+     "epoch": 1,
+     "dev_weighted_f1": 0.4132,
+     "dev_macro_f1": 0.2418
+    },
+    {
+     "epoch": 2,
+     "dev_weighted_f1": 0.4586,
+     "dev_macro_f1": 0.294
+    },
+    {
+     "epoch": 3,
+     "dev_weighted_f1": 0.4451,
+     "dev_macro_f1": 0.3021
+    },
+    {
+     "epoch": 4,
+     "dev_weighted_f1": 0.462,
+     "dev_macro_f1": 0.3002
+    },
+    {
+     "epoch": 5,
+     "dev_weighted_f1": 0.4402,
+     "dev_macro_f1": 0.3249
+    },
+    {
+     "epoch": 6,
+     "dev_weighted_f1": 0.4663,
+     "dev_macro_f1": 0.3256
+    },
+    {
+     "epoch": 7,
+     "dev_weighted_f1": 0.4621,
+     "dev_macro_f1": 0.3345
+    },
+    {
+     "epoch": 8,
+     "dev_weighted_f1": 0.4705,
+     "dev_macro_f1": 0.3241
+    },
+    {
+     "epoch": 9,
+     "dev_weighted_f1": 0.4711,
+     "dev_macro_f1": 0.3466
+    },
+    {
+     "epoch": 10,
+     "dev_weighted_f1": 0.4565,
+     "dev_macro_f1": 0.3158
+    },
+    {
+     "epoch": 11,
+     "dev_weighted_f1": 0.4663,
+     "dev_macro_f1": 0.3349
+    },
+    {
+     "epoch": 12,
+     "dev_weighted_f1": 0.4716,
+     "dev_macro_f1": 0.345
+    },
+    {
+     "epoch": 13,
+     "dev_weighted_f1": 0.4649,
+     "dev_macro_f1": 0.3332
+    },
+    {
+     "epoch": 14,
+     "dev_weighted_f1": 0.4653,
+     "dev_macro_f1": 0.327
+    },
+    {
+     "epoch": 15,
+     "dev_weighted_f1": 0.4485,
+     "dev_macro_f1": 0.3082
+    },
+    {
+     "epoch": 16,
+     "dev_weighted_f1": 0.4621,
+     "dev_macro_f1": 0.3241
+    },
+    {
+     "epoch": 17,
+     "dev_weighted_f1": 0.4637,
+     "dev_macro_f1": 0.3153
+    },
+    {
+     "epoch": 18,
+     "dev_weighted_f1": 0.467,
+     "dev_macro_f1": 0.3329
+    },
+    {
+     "epoch": 19,
+     "dev_weighted_f1": 0.4582,
+     "dev_macro_f1": 0.3284
+    },
+    {
+     "epoch": 20,
+     "dev_weighted_f1": 0.4525,
+     "dev_macro_f1": 0.3148
+    },
+    {
+     "epoch": 21,
+     "dev_weighted_f1": 0.4505,
+     "dev_macro_f1": 0.3121
+    },
+    {
+     "epoch": 22,
+     "dev_weighted_f1": 0.4425,
+     "dev_macro_f1": 0.3027
+    }
+   ]
+  }
+ ],
+ "dev_weighted_f1_mean": 0.48,
+ "dev_weighted_f1_std": 0.0065222695436481185
+}

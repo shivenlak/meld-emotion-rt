@@ -1,0 +1,300 @@
+{
+ "counts": {
+  "fused_fixed_text_mistake": 145,
+  "of_which_audio_head_agreed": 98,
+  "fused_broke_text_correct": 139,
+  "n_test": 2610
+ },
+ "examples": [
+  {
+   "category": "tone_overrides_words",
+   "uid": "dia199_utt13",
+   "gold_text": "I guess I just figured that somewhere down the road, we would be on again.",
+   "gold_label": "sadness",
+   "speaker": "Rachel",
+   "text_only_pred": "neutral",
+   "audio_only_pred": "sadness",
+   "state": {
+    "turn_id": 1,
+    "t_end_speech_ms": null,
+    "audio_seconds": 5.5,
+    "transcript": "I guess I just figured that somewhere down the road we would be on again.",
+    "emotion": "sadness",
+    "confidence": 0.639,
+    "probs": {
+     "anger": 0.014,
+     "disgust": 0.008,
+     "fear": 0.024,
+     "joy": 0.056,
+     "neutral": 0.255,
+     "sadness": 0.639,
+     "surprise": 0.004
+    },
+    "per_modality": {
+     "text": {
+      "anger": 0.035,
+      "disgust": 0.016,
+      "fear": 0.018,
+      "joy": 0.07,
+      "neutral": 0.646,
+      "sadness": 0.207,
+      "surprise": 0.008
+     },
+     "audio": {
+      "anger": 0.017,
+      "disgust": 0.027,
+      "fear": 0.063,
+      "joy": 0.093,
+      "neutral": 0.127,
+      "sadness": 0.631,
+      "surprise": 0.042
+     }
+    },
+    "smoothed_state": "sadness",
+    "smoothed_confidence": 0.639,
+    "expression": "droop_dim_blue",
+    "classifier": "trained_fusion",
+    "latency_ms": {
+     "asr": 272.0,
+     "emotion": 88.4,
+     "llm_first_token": 100.4,
+     "llm_total": 170.9
+    },
+    "reply": "Hmm, that feels sad. Maybe we'll be on again someday."
+   },
+   "reply": "Hmm, that feels sad. Maybe we'll be on again someday."
+  },
+  {
+   "category": "tone_overrides_words",
+   "uid": "dia191_utt5",
+   "gold_text": "Do you remember when you first came here, how you spent two weeks getting trained by another waitress?",
+   "gold_label": "neutral",
+   "speaker": "Gunther",
+   "text_only_pred": "surprise",
+   "audio_only_pred": "neutral",
+   "state": {
+    "turn_id": 2,
+    "t_end_speech_ms": null,
+    "audio_seconds": 4.01,
+    "transcript": "You remember when you first came here how you spent two weeks getting trained by another waitress?",
+    "emotion": "neutral",
+    "confidence": 0.589,
+    "probs": {
+     "anger": 0.086,
+     "disgust": 0.046,
+     "fear": 0.007,
+     "joy": 0.122,
+     "neutral": 0.589,
+     "sadness": 0.033,
+     "surprise": 0.116
+    },
+    "per_modality": {
+     "text": {
+      "anger": 0.135,
+      "disgust": 0.049,
+      "fear": 0.013,
+      "joy": 0.131,
+      "neutral": 0.3,
+      "sadness": 0.128,
+      "surprise": 0.244
+     },
+     "audio": {
+      "anger": 0.048,
+      "disgust": 0.037,
+      "fear": 0.009,
+      "joy": 0.041,
+      "neutral": 0.841,
+      "sadness": 0.015,
+      "surprise": 0.009
+     }
+    },
+    "smoothed_state": "neutral",
+    "smoothed_confidence": 0.589,
+    "expression": "idle_soft_white",
+    "classifier": "trained_fusion",
+    "latency_ms": {
+     "asr": 275.2,
+     "emotion": 69.7,
+     "llm_first_token": 85.9,
+     "llm_total": 189.0
+    },
+    "reply": "I remember when I first came here. It felt like two weeks, but I was just learning."
+   },
+   "reply": "I remember when I first came here. It felt like two weeks, but I was just learning."
+  },
+  {
+   "category": "correct_confident",
+   "uid": "dia45_utt4",
+   "gold_text": "Oh that's so exciting!",
+   "gold_label": "joy",
+   "speaker": "Phoebe",
+   "text_only_pred": "joy",
+   "audio_only_pred": "joy",
+   "state": {
+    "turn_id": 3,
+    "t_end_speech_ms": null,
+    "audio_seconds": 2.52,
+    "transcript": "Oh, that's so exciting! Thank you! Thanks, Ma-",
+    "emotion": "joy",
+    "confidence": 0.989,
+    "probs": {
+     "anger": 0.003,
+     "disgust": 0.0,
+     "fear": 0.0,
+     "joy": 0.989,
+     "neutral": 0.002,
+     "sadness": 0.001,
+     "surprise": 0.005
+    },
+    "per_modality": {
+     "text": {
+      "anger": 0.004,
+      "disgust": 0.0,
+      "fear": 0.0,
+      "joy": 0.974,
+      "neutral": 0.004,
+      "sadness": 0.003,
+      "surprise": 0.014
+     },
+     "audio": {
+      "anger": 0.277,
+      "disgust": 0.1,
+      "fear": 0.017,
+      "joy": 0.409,
+      "neutral": 0.124,
+      "sadness": 0.011,
+      "surprise": 0.062
+     }
+    },
+    "smoothed_state": "joy",
+    "smoothed_confidence": 0.989,
+    "expression": "bounce_bright_yellow",
+    "classifier": "trained_fusion",
+    "latency_ms": {
+     "asr": 272.4,
+     "emotion": 52.5,
+     "llm_first_token": 86.2,
+     "llm_total": 206.5
+    },
+    "reply": "Oh, that's so exciting! I'm glad you said that. Let me know if you need anything else."
+   },
+   "reply": "Oh, that's so exciting! I'm glad you said that. Let me know if you need anything else."
+  },
+  {
+   "category": "low_confidence",
+   "uid": "dia203_utt8",
+   "gold_text": "Y'know what, I should do it.",
+   "gold_label": "joy",
+   "speaker": "Bonnie",
+   "text_only_pred": "sadness",
+   "audio_only_pred": "surprise",
+   "state": {
+    "turn_id": 4,
+    "t_end_speech_ms": null,
+    "audio_seconds": 1.13,
+    "transcript": "You know what? I can't do it.",
+    "emotion": "anger",
+    "confidence": 0.181,
+    "probs": {
+     "anger": 0.181,
+     "disgust": 0.125,
+     "fear": 0.099,
+     "joy": 0.141,
+     "neutral": 0.171,
+     "sadness": 0.112,
+     "surprise": 0.17
+    },
+    "per_modality": {
+     "text": {
+      "anger": 0.134,
+      "disgust": 0.103,
+      "fear": 0.122,
+      "joy": 0.148,
+      "neutral": 0.217,
+      "sadness": 0.209,
+      "surprise": 0.067
+     },
+     "audio": {
+      "anger": 0.166,
+      "disgust": 0.077,
+      "fear": 0.064,
+      "joy": 0.137,
+      "neutral": 0.135,
+      "sadness": 0.033,
+      "surprise": 0.388
+     }
+    },
+    "smoothed_state": "anger",
+    "smoothed_confidence": 0.181,
+    "expression": "dim_warm_red_slow_lean_back",
+    "classifier": "trained_fusion",
+    "latency_ms": {
+     "asr": 257.9,
+     "emotion": 45.9,
+     "llm_first_token": 100.9,
+     "llm_total": 235.5
+    },
+    "reply": "Hmm, that sounds tough. What's the thing you're trying to do? Let me know and I'll try my best!"
+   },
+   "reply": "Hmm, that sounds tough. What's the thing you're trying to do? Let me know and I'll try my best!"
+  },
+  {
+   "category": "failure",
+   "uid": "dia107_utt7",
+   "gold_text": "Yeah.",
+   "gold_label": "sadness",
+   "speaker": "Ross",
+   "text_only_pred": "neutral",
+   "audio_only_pred": "joy",
+   "state": {
+    "turn_id": 5,
+    "t_end_speech_ms": null,
+    "audio_seconds": 1.88,
+    "transcript": "Mm.",
+    "emotion": "neutral",
+    "confidence": 0.963,
+    "probs": {
+     "anger": 0.004,
+     "disgust": 0.007,
+     "fear": 0.002,
+     "joy": 0.014,
+     "neutral": 0.963,
+     "sadness": 0.009,
+     "surprise": 0.002
+    },
+    "per_modality": {
+     "text": {
+      "anger": 0.003,
+      "disgust": 0.003,
+      "fear": 0.003,
+      "joy": 0.004,
+      "neutral": 0.978,
+      "sadness": 0.007,
+      "surprise": 0.001
+     },
+     "audio": {
+      "anger": 0.071,
+      "disgust": 0.1,
+      "fear": 0.025,
+      "joy": 0.319,
+      "neutral": 0.284,
+      "sadness": 0.054,
+      "surprise": 0.148
+     }
+    },
+    "smoothed_state": "neutral",
+    "smoothed_confidence": 0.963,
+    "expression": "idle_soft_white",
+    "classifier": "trained_fusion",
+    "latency_ms": {
+     "asr": 225.6,
+     "emotion": 48.2,
+     "llm_first_token": 84.4,
+     "llm_total": 186.7
+    },
+    "reply": "Mmm... maybe they're thinking about something. Let me know if you want to explore that!"
+   },
+   "reply": "Mmm... maybe they're thinking about something. Let me know if you want to explore that!"
+  }
+ ]
+}

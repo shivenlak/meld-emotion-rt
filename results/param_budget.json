@@ -1,0 +1,56 @@
+{
+ "rows": [
+  {
+   "stage": "VAD",
+   "model": "Silero VAD (snakers4/silero-vad)",
+   "params": 462594,
+   "how": "loaded, numel"
+  },
+  {
+   "stage": "ASR",
+   "model": "Whisper small.en (openai/whisper-small.en)",
+   "params": 241734144,
+   "how": "safetensors header of original"
+  },
+  {
+   "stage": "Text encoder",
+   "model": "FacebookAI/roberta-base",
+   "params": 124055040,
+   "how": "loaded, numel"
+  },
+  {
+   "stage": "Audio encoder",
+   "model": "microsoft/wavlm-base-plus",
+   "params": 94381936,
+   "how": "loaded, numel"
+  },
+  {
+   "stage": "Fusion head",
+   "model": "ours (models/fused.pt)",
+   "params": 533551,
+   "how": "loaded, numel"
+  },
+  {
+   "stage": "LLM",
+   "model": "Qwen/Qwen3-1.7B (run as mlx-community/Qwen3-1.7B-4bit)",
+   "params": 2031739904,
+   "how": "safetensors header of original (conservative: the checkpoint stores the tied embedding twice, as embed_tokens and lm_head); unique weights after unpacking MLX 4-bit = 1,720,574,976"
+  },
+  {
+   "stage": "Face detector (vision ext.)",
+   "model": "YuNet (opencv/face_detection_yunet)",
+   "params": 53121,
+   "how": "ONNX initializers, summed"
+  },
+  {
+   "stage": "Face expression (vision ext.)",
+   "model": "trpakov/vit-face-expression",
+   "params": 85804039,
+   "how": "loaded, numel"
+  }
+ ],
+ "total_core": 2492907169,
+ "total_with_vision": 2578764329,
+ "cap": 6000000000,
+ "under_cap": true
+}

@@ -1,0 +1,56 @@
+{
+ "n_clips": 100,
+ "hardware": {
+  "chip": "Apple M4 Pro",
+  "ram_gb": 24,
+  "os": "macOS-15.5-arm64-arm-64bit",
+  "asr_device": "mps"
+ },
+ "audio_seconds_p50": 2.2,
+ "latency_ms": {
+  "vad": {
+   "p50": 0.1,
+   "p95": 0.1,
+   "max": 0.4
+  },
+  "asr": {
+   "p50": 238.8,
+   "p95": 297.0,
+   "max": 326.9
+  },
+  "emotion": {
+   "p50": 49.6,
+   "p95": 83.6,
+   "max": 138.9
+  },
+  "llm_first_token": {
+   "p50": 86.2,
+   "p95": 104.0,
+   "max": 113.0
+  },
+  "llm_total": {
+   "p50": 174.1,
+   "p95": 226.3,
+   "max": 305.0
+  },
+  "tags_after_eos": {
+   "p50": 287.6,
+   "p95": 379.9,
+   "max": 448.7
+  },
+  "first_token_after_eos": {
+   "p50": 377.7,
+   "p95": 484.3,
+   "max": 549.2
+  }
+ },
+ "vad_wait_ms": 500,
+ "memory": {
+  "rss_before_load_mb": 227,
+  "rss_after_load_mb": 1522,
+  "rss_peak_mb": 1600,
+  "torch_mps_driver_mb": 3515,
+  "mlx_peak_mb": 1328
+ },
+ "model_load_seconds": 5.9
+}

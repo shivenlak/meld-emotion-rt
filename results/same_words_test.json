@@ -1,0 +1,64 @@
+{
+ "n_utterances": 155,
+ "n_distinct_texts": 24,
+ "text_only_ceiling_accuracy": 0.6645,
+ "text-only_accuracy_mean": 0.6129,
+ "fused_accuracy_mean": 0.6086,
+ "text-only_accuracy_std": 0.0053,
+ "fused_accuracy_std": 0.0152,
+ "examples": [
+  {
+   "text": "Hey!",
+   "n": 26,
+   "labels": {
+    "anger": 2,
+    "joy": 15,
+    "neutral": 5,
+    "sadness": 1,
+    "surprise": 3
+   }
+  },
+  {
+   "text": "Hi!",
+   "n": 19,
+   "labels": {
+    "joy": 13,
+    "neutral": 5,
+    "sadness": 1
+   }
+  },
+  {
+   "text": "What?",
+   "n": 16,
+   "labels": {
+    "joy": 1,
+    "neutral": 8,
+    "surprise": 7
+   }
+  },
+  {
+   "text": "Yeah.",
+   "n": 15,
+   "labels": {
+    "neutral": 14,
+    "sadness": 1
+   }
+  },
+  {
+   "text": "Yeah!",
+   "n": 11,
+   "labels": {
+    "anger": 1,
+    "joy": 10
+   }
+  },
+  {
+   "text": "Okay.",
+   "n": 9,
+   "labels": {
+    "joy": 1,
+    "neutral": 8
+   }
+  }
+ ]
+}

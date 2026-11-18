@@ -1,0 +1,9 @@
+{
+  "train": {
+    "dia125_utt3": "ffmpeg failed: sing input\nError opening input file data/MELD.Raw/train_splits/dia125_utt3.mp4.\nError opening input files: Invalid data found when processing input"
+  },
+  "dev": {
+    "dia110_utt7": "missing video"
+  },
+  "test": {}
+}
